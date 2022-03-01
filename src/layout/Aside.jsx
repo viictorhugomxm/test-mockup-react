@@ -15,8 +15,8 @@ export const Aside = () => {
       <nav className="mt-10">
 
         <Link 
-          to="/administradores"
-          className={`${urlActual === '/administradores' ? 'text-blue-300' : 'text-black'} text-xl block mt-2 hover:color-fuente mb-2`}
+          to="/"
+          className={`${urlActual === '/' ? 'text-blue-300' : 'text-black'} text-xl block mt-2 hover:color-fuente mb-2`}
         > <FontAwesomeIcon icon={faUser} /> Administradores</Link>
         <hr />
         <Link 
