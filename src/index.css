@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-texto-principal: #6DDAD2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.color-fuente {
+  color: var(--color-texto-principal)
+}
+
+.color-fondo {
+  background-color: var(--color-texto-principal);
+}
+
+.circle {
+  border-radius: 50%;
+  border:1px solid red;
+}
+
+.img-chica {
+  width: 5%;
+}
+
+.img-mediana {
+  width: 6%;
+}
+
+.text-pequenio {
+  font-size: .7rem;
+}
+
+.borde-derecho {
+  border-right: 1px solid white;
+}
+
+.padding-derecho {
+  padding-right: 1.5rem;
+}
+
+
+
